@@ -1,0 +1,23 @@
+{
+  "class": "AS3",
+  "action": "deploy",
+  "declaration": {
+    "class": "ADC",
+    "schemaVersion": "3.26.0",
+    "remark": "external data group declaration",
+    "Common": {
+      "Shared": {
+        "class": "Application",
+        "template": "shared",
+        "dataGroupRefExternal": {
+          "class": "Data_Group",
+          "label": "Tag values mapping",
+          "storageType": "external",
+          "keyDataType": "string",
+          "externalFilePath": "https://raw.githubusercontent.com/shaath1/externaldatagroup/main/data_group_sample.txt",
+          "separator": ":="
+        }
+      }
+    }
+  }
+}
