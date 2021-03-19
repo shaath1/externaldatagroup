@@ -5,9 +5,9 @@ admin passowrd
 bigip address (could be hostname or IP)
 
 ### f5devcentral.atc_deploy
-run this command
-ansible-playbook -i myinventory.yml playbook_f5devcentral_atc_deploy.yml
+run this command:
+ ansible-playbook -i myinventory.yml playbook_f5devcentral_atc_deploy.yml
 
 ### uri
-run this command
-ansible-playbook -i myinventory.yml playbook_uri.yml 
+run this command:
+ ansible-playbook -i myinventory.yml playbook_uri.yml 
