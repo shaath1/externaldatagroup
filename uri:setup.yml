@@ -1,6 +1,0 @@
----
-## BIG-IP variables
-bigip:
-    admin_user: admin
-    admin_password: "admin"
-    address: bigip15.local
